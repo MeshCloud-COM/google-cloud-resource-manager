@@ -1,8 +1,7 @@
 # google-cloud-resource-manager
-GCP Project 新增 用户账户 或 服务账户
 
 ### 功能
-使用API接口，向GCP平台指定的project的role下，新增加用户账户或者服务账户
+使用API接口，向GCP Project 新增 用户账户 或 服务账户
 
 
 ### 外部依赖包
