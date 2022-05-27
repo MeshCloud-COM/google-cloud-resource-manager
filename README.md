@@ -23,8 +23,8 @@ GCP Project 新增 用户账户 或 服务账户
 pip install --upgrade google-api-python-client google-auth  google-auth-oauthlib google-auth-httplib2
 ```
 
-2. 生成一个 service account
-* 需要设置权限为 
+2. 生成一个 service account 例如 meshcloud-project-test.json
+* 需要设置权限为 Project IAM Admin
 ![image](https://user-images.githubusercontent.com/10955940/170627536-e28295e5-d1d4-486b-b36c-ef0e9865c128.png)
 
 3. 设置常量 
