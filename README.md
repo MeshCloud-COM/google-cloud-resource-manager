@@ -23,11 +23,15 @@ GCP Project 新增 用户账户 或 服务账户
 pip install --upgrade google-api-python-client google-auth  google-auth-oauthlib google-auth-httplib2
 ```
 
-2. 设置常量 
+2. 生成一个 service account
+* 需要设置权限为 
+![image](https://user-images.githubusercontent.com/10955940/170627536-e28295e5-d1d4-486b-b36c-ef0e9865c128.png)
+
+3. 设置常量 
 * SCOPES = ['https://www.googleapis.com/auth/cloud-platform', 'https://www.googleapis.com/auth/cloudplatformprojects']
 * SERVICE_ACCOUNT_FILE = '/meshcloud-project-test.json'
 
-3. 修改参数并执行脚本
+4. 修改参数并执行脚本
 > 参考 main.py中的列子
 
 
